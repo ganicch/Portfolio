@@ -1,0 +1,248 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+header .glavni-meni li {
+	display: inline-block;
+	margin-left: 15px;
+	padding-top: 12px;
+}
+
+
+.glavni-meni li a {
+	list-style: none;
+	text-decoration: none;
+	color: #fff;
+	font-size: 17px;
+	text-transform: uppercase;
+}
+
+.glavni-meni li a:hover {
+	
+	border-bottom: 1px solid rgb(255, 204, 0); 
+	 
+}
+a.active {
+	border-bottom: 1px solid rgb(255, 204, 0);
+}
+header {
+	background-color: #6c6d70;
+	border-bottom: 1px solid #000;
+}
+header h2 {
+	padding-top: 3px;
+	color: #fff;
+}
+
+.glavni-meni {
+	float: right;
+}
+
+.blog1 .col-md-8 {
+	margin-top: 50px;
+}
+.blog1 .col-md-4 img{
+	margin-top: 45px;
+	float: right;
+}
+.blog1 h1 {
+	text-transform: uppercase;
+	color: rgba(200,200,200,1);
+}
+
+.blog2 .sekcija2 {
+	background-image: url("slike/blogslika2.jpg");
+	background-size: cover;
+	background-position: center;
+	margin-top: 20px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+	-webkit-box-shadow: 0px 10px 13px -7px #000000, 6px 10px 7px 5px rgba(0,0,0,0.14); 
+	box-shadow: 0px 10px 13px -7px #000000, 6px 10px 7px 5px rgba(0,0,0,0.14);
+
+}
+
+.blog2 .sekcija2 ul {
+	text-decoration: none;
+	list-style: none;
+}
+
+.blog2 .sekcija2 ul li {
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+.blog3 {
+	margin-top: 50px;
+}
+.blog3 h4 {
+	text-transform: uppercase;
+}
+.blog3 img {
+	height: 200px;
+	width: 300px;
+
+}
+
+
+
+.galerija .col-md-12 {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border-bottom: 2px solid #000;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	border-top: 2px solid #000;
+}
+.galerijaa {
+  margin: 5px;
+  
+  float: left;
+  width:354px;
+ 
+}
+
+.galerijaa img {
+  width: 100%;
+  height: 250px;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 6px 10px 7px 5px rgba(0,0,0,0.14); 
+	box-shadow: 0px 10px 13px -7px #000000, 6px 10px 7px 5px rgba(0,0,0,0.14);
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+.blog4 h1 {
+	text-transform: uppercase;
+	color: rgba(200,200,200,1);
+}
+.blog4 {
+	margin-top: 50px;
+}
+
+.blog4 .slika1 {
+	width: 280px;
+	height: 240px;
+}
+.blog2 .sekcija3 {
+	background-image: url("slike/blogbaner2.jpg");
+	background-size: cover;
+	background-position: center;
+	margin-top: 20px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+
+}
+.blog2 .sekcija3 ul {
+	text-decoration: none;
+	list-style: none;
+	background-color: rgb(0,0,0,0.1);
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.blog2 .sekcija3 ul li {
+	margin-bottom: 10px;
+	font-weight: bold;
+	color: #FFF;
+}
+
+@media (max-width: 992px) {
+	.galerijaa img {
+  		width: 100%;
+  		height: 300px;
+	}
+	.galerijaa {
+  		margin: 5px;
+  
+  		float: left;
+  		width:480px;
+	}
+	.blog1 .slika1,.slika3{
+		display: none;
+	}
+
+}
+.tabela .col-md-12 table{
+	margin: auto;
+	margin-bottom: 40px;
+	text-align: center;
+	-webkit-box-shadow: 0px 10px 13px -7px #000000, 6px 10px 7px 5px rgba(0,0,0,0.14); 
+	box-shadow: 0px 10px 13px -7px #000000, 6px 10px 7px 5px rgba(0,0,0,0.14);
+	
+}
+.tabela .col-md-12 table td{
+	border: 2px solid #000;
+	padding: 10px;
+}
+
+
+.tabela .col-md-12 {
+	margin-top: 50px;
+}
+
+@media (max-width: 933px) {
+	table {
+		display: none;
+	}
+
+	video {
+		width: 400px;
+	}
+}
+@media (max-width: 495px){
+	video,.galerija {
+		display: none;
+	}
+}
+
+.video {
+	text-align: center;
+}
+
+.footer {
+	background-color: #6c6d70;
+	text-align: center;
+	border-top: 3px solid #000;
+	
+}
+.footer ul {
+	margin-top: 30px;
+	color: #fff;
+	list-style: none;
+	text-decoration: none;
+}
+.footer ul li {
+	font-size: 20px;
+	
+	text-transform: uppercase;
+}
+.footer ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+.footer h5 {
+	margin-top: 40px;
+	color: #fff;
+	text-transform: uppercase;
+}
+.footer .social-media{
+	font-size: 30px;
+	
+}
+.footer .social-media a{
+	color: #fff;
+}
+.footer img {
+	height: 150px;
+	width: 150px;
+	
+	
+}
+
+.footer a:active {
+	color: rgb(255, 204, 0);
+}
